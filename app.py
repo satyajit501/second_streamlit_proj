@@ -1,2 +1,8 @@
 import streamlit as st
-st.title("Innomatics Data App")
+from PIL import Image
+
+
+st.title("My Curriculum Vitae")
+image = Image.open('mypic.jpg')
+
+st.image(image, caption='')
