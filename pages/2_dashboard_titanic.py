@@ -11,7 +11,7 @@ file_directory1 = os.path.dirname(os.path.abspath(__file__))
 parent_directory1 = os.path.join(file_directory1, os.pardir)
 
 # absolute path of directory of interest
-dir_of_interest1 = os.path.jin(parent_directory1,"resources")
+dir_of_interest1 = os.path.join(parent_directory1,"resources")
 
 image_path1 = os.path.join(dir_of_interest1, "images", "titanic.jpg")
 data_path1 = os.path.join(dir_of_interest1, "data", "titanic.csv")
